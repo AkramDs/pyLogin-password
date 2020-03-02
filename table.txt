@@ -1,0 +1,7 @@
+CREATE DATABASE users;
+
+USE users;
+
+CREATE TABLE users (ID INT AUTO_INCREMENT PRIMARY KEY NOT NULL, login VARCHAR(128), password VARCHAR(128), email VARCHAR(128));
+
+INSERT INTO users (login, password, email ) VALUES('testname', 'testpassword', 'test@email.com');
